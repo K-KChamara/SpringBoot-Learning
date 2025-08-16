@@ -16,8 +16,6 @@ spring:
 #        ddl-auto: update
 #    show-sql: true
 
-notification:
-  service:
-    name: email
-sample:
-  api: pakaya
+mailServer:
+  host: gmail
+  port: 3000
