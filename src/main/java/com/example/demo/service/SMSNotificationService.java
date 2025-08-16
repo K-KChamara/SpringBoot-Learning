@@ -1,8 +1,9 @@
 package com.example.demo.service;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-@Service("sms")
+//@Service("sms")
 public class SMSNotificationService implements NotificationService {
     @Override
     public void send(String message){
