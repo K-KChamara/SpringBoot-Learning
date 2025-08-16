@@ -14,6 +14,8 @@ public class  DemoApplication {
         ApplicationContext context = SpringApplication.run(DemoApplication.class, args);
         NotificationManager notificationManager = context.getBean(NotificationManager.class);
         notificationManager.sendNotification("Hello World");
+
+
     }
 
 }

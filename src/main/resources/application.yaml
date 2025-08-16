@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: demo
+
+  #Database configuration
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    password: 12345
+#    url: jdbc:postgresql://localhost:5432/Users
+##
+#  #JPA configuration
+#  jpa:
+#    properties:
+#      hibernate:
+#        globally_quoted_identifiers: true    # Adding double quotes - postgresql
+#        ddl-auto: update
+#    show-sql: true
+
+sample:
+  api: pakaya
